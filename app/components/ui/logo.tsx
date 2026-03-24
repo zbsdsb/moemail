@@ -6,7 +6,7 @@ export function Logo() {
   return (
     <Link 
       href="/"
-      className="flex items-center gap-2 hover:opacity-80 transition-opacity"
+      className="group flex items-center gap-2.5 transition-opacity hover:opacity-90"
     >
       <div className="relative w-8 h-8">
         <div className="absolute inset-0 grid grid-cols-8 grid-rows-8 gap-px">
@@ -16,7 +16,7 @@ export function Logo() {
             viewBox="0 0 32 32"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
-            className="text-primary"
+            className="text-primary transition-transform duration-200 group-hover:scale-[1.03]"
           >
             {/* 信封主体 */}
             <path
@@ -57,7 +57,7 @@ export function Logo() {
           </svg>
         </div>
       </div>
-      <span className="font-bold tracking-wider bg-clip-text text-transparent bg-gradient-to-r from-primary to-purple-600">
+      <span className="select-none text-[1.32rem] font-semibold leading-none tracking-[-0.035em] bg-clip-text text-transparent bg-gradient-to-r from-primary via-[#7c68d8] to-[#9a86f1] drop-shadow-[0_1px_10px_rgba(130,109,217,0.14)] transition-all duration-200 group-hover:from-[#775fd7] group-hover:to-[#8f79e9]">
         MoeMail
       </span>
     </Link>

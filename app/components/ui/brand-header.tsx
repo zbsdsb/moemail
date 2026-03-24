@@ -26,7 +26,7 @@ export function BrandHeader({
       <div className="flex justify-center pt-2">
         <Link
           href="https://moemail.app"
-          className="flex items-center gap-3 hover:opacity-80 transition-opacity group"
+          className="group flex items-center gap-3.5 transition-opacity hover:opacity-90"
         >
           <div className="relative w-12 h-12">
             <div className="absolute inset-0 grid grid-cols-8 grid-rows-8 gap-px">
@@ -36,7 +36,7 @@ export function BrandHeader({
                 viewBox="0 0 32 32"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
-                className="text-primary group-hover:scale-105 transition-transform duration-200"
+                className="text-primary transition-transform duration-200 group-hover:scale-[1.03]"
               >
                 {/* 信封主体 */}
                 <path
@@ -77,7 +77,7 @@ export function BrandHeader({
               </svg>
             </div>
           </div>
-          <span className="text-3xl font-bold tracking-wider bg-clip-text text-transparent bg-gradient-to-r from-primary to-purple-600">
+          <span className="select-none text-[2.35rem] font-semibold leading-none tracking-[-0.045em] bg-clip-text text-transparent bg-gradient-to-r from-primary via-[#7c68d8] to-[#9a86f1] drop-shadow-[0_1px_12px_rgba(130,109,217,0.16)] transition-all duration-200 group-hover:from-[#775fd7] group-hover:to-[#8f79e9] md:text-[2.7rem]">
             MoeMail
           </span>
         </Link>

@@ -59,7 +59,15 @@ const config = {
         sm: "calc(var(--radius) - 4px)",
       },
       fontFamily: {
-        sans: ['var(--font-zpix)'],
+        sans: [
+          "Inter",
+          "Segoe UI",
+          "PingFang SC",
+          "Hiragino Sans GB",
+          "Microsoft YaHei",
+          "system-ui",
+          "sans-serif",
+        ],
         zpix: ['var(--font-zpix)'],
       },
       keyframes: {

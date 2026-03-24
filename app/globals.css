@@ -55,6 +55,8 @@
   }
   body {
     @apply bg-background text-foreground;
+    font-family: Inter, "Segoe UI", "PingFang SC", "Hiragino Sans GB",
+      "Microsoft YaHei", system-ui, sans-serif;
   }
 }
 
